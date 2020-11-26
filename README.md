@@ -1,4 +1,6 @@
-# Using python to scrape links from a google search, useful when using the search params for filetype:### to collate a list of files which you can then download via normal general bash loops if you so wish... 
+# Using python to scrape links from a google search.
+useful when using the search params for filetype:### to collate a list of files which you can then download via normal general bash loops if you so wish... 
+### snip below taken from [Mario Vilas](https://python-googlesearch.readthedocs.io/en/latest/)
 
 
 googlesearch.search(query, tld='com', lang='en', tbs='0', safe='off', num=10, start=0, stop=None, pause=2.0, country='', extra_params=None, user_agent=None, verify_ssl=True)[source]
@@ -56,4 +58,3 @@ googlesearch.get_tbs(from_date, to_date)[source]
 
     Dates encoded in tbs format.
     
-    ### the above taken from [Mario Vilas](https://python-googlesearch.readthedocs.io/en/latest/)
